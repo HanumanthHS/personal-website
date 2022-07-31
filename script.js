@@ -74,7 +74,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Hanumantappa Hatti</a>.</span><br><br>I am a Sr. Software Engineer at <span class='bold'>Profinch Solutions Pvt Ltd‍💻</span><br>Bengaluru<br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Hanumanth Hatti</a>.</span><br><br>I am a Sr. Software Engineer at <span class='bold'>Profinch Solutions Pvt Ltd‍💻</span><br>Bengaluru<br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
@@ -98,7 +98,7 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/itz_me_hanumanth/'><span class='bold'>Hanumantappa Hatti</a> with ❤️</span>");
+            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/itz_me_hanumanth/'><span class='bold'>Hanumanth Hatti</a> with ❤️</span>");
             break;
         case "contact":
             sendTextMessage(contactString);
